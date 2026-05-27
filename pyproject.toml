@@ -37,7 +37,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-openbabel = ["openbabel-wheel"]  # For XYZ → InChIKey conversion
+openbabel = ["openbabel>=3.2.0"]  # For XYZ → InChIKey conversion
 
 [dependency-groups]
 dev = [
